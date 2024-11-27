@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super do Centro</title>
+  <link rel="shortcut icon" href="/image/mercado logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  ">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+  <main>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/image/mercado logo.png" class="logo" style="border: 1px solid black; border-radius: 50%;" height="50" alt="logo mercado">
+              Super do Centro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-1">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#promocao">Promoção</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produtos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#eletr">Eletrónicos</a></li>
+                    <li><a class="dropdown-item" href="#Pdt-casa">Produtos para casa</a></li>
+                    <li><a class="dropdown-item" href="#cosmeticos">Cosméticos</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success lupa" type="submit">
+                  <img src="image/lupa.svg" class="d-block">
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- carrousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#eletr"><img src="/image/eletronicos.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="/image/cosmesticos.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#Pdt-casa"><img src="/image/casa itens.png" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- promoções -->
+
+    <section>
+
+      <h2 id="promocao">Promoções</h2>
+      <div class="container">
+        <div class="row text-center prom">
+          <div class="col">
+            <a href="#destaque">
+              <img src="/image/promoção/geladeira.png">
+              <p>
+                Geladeira Brastemp French Door Frost Free A+++ 554l Inox Bro85ak - 220v
+              </p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#destaque">
+              <img src="/image/promoção/Panela de Pressão.png">
+              <p>
+                Panela de Pressão Elétrica 6L Digital, Inox/Preto, 110v, Midea
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="row text-center prom">
+          <div class="col">
+            <a href="#destaque">
+              <img src="/image//promoção/baton.png">
+              <p>Batom Hidratante Sofisticado</p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#destaque">
+              <img src="/image/promoção/perfume.png">
+              <p>Scuderia Ferrari Black Eau de Toilette, Ferrari</p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#destaque">
+              <img src="image/promoção/lençol cama.png">
+              <p>
+                Edredom Toque de Plumas Dupla Face, Microfibra Plumage Liso Quadriculado (Cinza Chumbo, King)
+              </p>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#destaque">
+              <img src="/image/promoção/travesseiro.png">
+              <p>Kit 02 Travesseiros Toque de Pluma Pena Percal 180 Fios 50x70cm Lavável, Antiácaro, Antialérgico</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- produtos -->
+
+    <section>
+      <h2 id="#produto">Produtos</h2>
+      <div class="container">
+
+        <!-- Destaque -->
+
+        <h4 id="destaque">Destaque</h4>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class=" col">
+            <div class="card h-100  w-75" id="geladeira">
+              <img src="/image/promoção/geladeira.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Geladeira Brastemp French Door Frost Free A+++ 554l Inox Bro85ak - 220v</h6>
+                <p class="subl">R$ 5.999,00</p>
+                <h5>R$ 3.599,40</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/Panela de Pressão.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Panela de Pressão Elétrica 6L Digital, Inox/Preto, 110v, Midea</h6>
+                <p class="subl">R$ 397,74</p>
+                <h5>R$ 258,54</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/baton.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Batom Hidratante Sofisticado</h6>
+                <p class="subl">R$ 49,90</p>
+                <h5>R$ 34,93</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/perfume.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Scuderia Ferrari Black Eau de Toilette, Ferrari</h6>
+                <p class="subl">R$ 182,99</p>
+                <h5>R$ 128,09</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/lençol cama.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Edredom Toque de Plumas Dupla Face, Microfibra Plumage Liso Quadriculado (Cinza Chumbo, King)</h6>
+                <p class="subl">R$ 339,99</p>
+                <h5>R$ 237,99</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/travesseiro.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Kit 02 Travesseiros Toque de Pluma Pena Percal 180 Fios 50x70cm Lavável, Antiácaro, Antialérgico</h6>
+                <p class="subl">R$ 79,90</p>
+                <h5>R$ 63,92</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- produtos eletronicos -->
+
+        <h4 id="eletr">Eletrónicos</h4>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class=" col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/geladeira.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Geladeira Brastemp French Door Frost Free A+++ 554l Inox Bro85ak - 220v</h6>
+                <p class="subl">R$ 2.300,00</p>
+                <h5>R$ 2.000,00</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/Panela de Pressão.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Panela de Pressão Elétrica 6L Digital, Inox/Preto, 110v, Midea</h6>
+                <p class="subl">R$ 397,74</p>
+                <h5>R$ 258,54</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/ventilador.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Ventilador Britânia 2 em 1 BVT400 Maxx Force 150W 127V</h6>
+                <h5 class="mt-auto">R$ 159,90</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/fogão elétrico.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">COOKTOP ITATIAIA ESS 4 BOCAS 127/220V</h6>
+                <h5 class="mt-auto">R$ 358,00</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/liquidificador.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Liquidificador Mondial Turbo L-1000 RI Vermelho/Inox 1000W com 12 Velocidades - 110V</h6>
+                <h5 class="mt-auto">R$ 129,00</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/microondas.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Forno de Micro-ondas Solo 30L Branco 220V</h6>
+                <h5 class="mt-auto">R$ 659,00</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produtos de casa -->
+
+        <h4 class="text-white" id="Pdt-casa">Produtos para sua casa</h4>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class=" col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/lençol cama.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Edredom Toque de Plumas Dupla Face, Microfibra Plumage Liso Quadriculado (Cinza Chumbo, King)</h6>
+                <p class="subl">R$ 339,99</p>
+                <h5>R$ 237,99</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/travesseiro.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Kit 02 Travesseiros Toque de Pluma Pena Percal 180 Fios 50x70cm Lavável, Antiácaro, Antialérgico</h6>
+                <p class="subl">R$ 79,90</p>
+                <h5>R$ 63,92</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/toalha.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Kit Com 4 Toalhas Banhão Gigante Alta Absorção Sublime 70x150cm - Central Toalhas (KIT 1)</h6>
+                <h5 class="mt-auto">R$ 116,99</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/toalha de mesa.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Toalha de mesa Retangular Karsten 8 lugares Celebration Veríssimo Granizo</h6>
+                <h5 class="mt-auto">R$ 182,70</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/guarda-roupa.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Guarda-Roupa Casal Madesa Reno 3 Portas de Correr com Espelho - Preto</h6>
+                <h5 class="mt-auto">R$ 2.199,90</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/prateleira.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Estante Industrial Ferro Com 5 Prateleiras Na Cor Mel</h6>
+                <h5 class="mt-auto">R$ 344,70</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cama-solteiro.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Cama Box Solteiro Colchão Molas Qatar 88x188x60cm Branco/Preto - Suporta até 150kg</h6>
+                <h5 class="mt-auto">R$ 699,82</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cosméticos -->
+
+        <h4 class="text-white" id="cosmeticos">Cosméticos</h4>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/baton.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Batom Hidratante Sofisticado</h6>
+                <p class="subl">R$ 49,90</p>
+                <h5>R$ 34,93</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/perfume.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Scuderia Ferrari Black Eau de Toilette, Ferrari</h6>
+                <p class="subl">R$ 182,99</p>
+                <h5>R$ 128,09</h5>
+                <button class="btn btn-success mt-auto botao" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cosméticos/1 Million Paco Rabanne Eau de Toilette.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">1 Million Paco Rabanne Eau de Toilette</h6>
+                <h5 class="mt-auto">R$ 549,90</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cosméticos/Malbec X Desodorante Colônia 100ml.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Malbec X Desodorante Colônia 100ml</h6>
+                <h5 class="mt-auto">R$ 169,60</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cosméticos/Perfume masculino 212 Vip Black Carolina Herrera.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Perfume masculino 212 Vip Black Carolina Herrera</h6>
+                <h5 class="mt-auto">R$ 690,00</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cosméticos/Batom Hidratante Avelã + Batom Hidratante Malva.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Combo Soul Kiss Me: Batom Hidratante Avelã 3,7g + Batom Hidratante Malva 3,7g</h6>
+                <h5 class="mt-auto">R$ 29,99</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100  w-75">
+              <img src="/image/promoção/cosméticos/Dermacol Pretty Matte Lipstick No. 15.png">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Dermacol Pretty Matte Lipstick No. 15</h6>
+                <h5 class="mt-auto">R$ 49,50</h5>
+                <button class="btn btn-success mt-auto" type="button" style="margin-top: 20px;"> Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <footer class="text-white">
+      <div class="container py-4" style="background-color: orange; margin-bottom: 0px;">
+        <div class="row g-2 text-center">
+          <div class="col-md-7">
+            <h4 class="h6">DADOS DO CONTATO</h4>
+            <ul class="list-unstyled">
+              <li>churrasdarino@ehobeef.com.br</li>
+              <li>43 99999-9999</li>
+              <li>De Qui. à Dom. das 10h às 23h</li>
+            </ul>
+          </div>
+          <div class="col-md-3 ">
+            <h4 class="h6">REDES SOCIAIS</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="btn btn-outline-light mb-2 btn-sm btn-block w-100" style="max-width: 140px;">Facebook</a></li>
+              <li><a href="#" class="btn btn-outline-light mb-2 btn-sm btn-block w-100" style="max-width: 140px;">Twitter</a></li>
+              <li><a href="#" class="btn btn-outline-light mb-2 btn-sm btn-block w-100" style="max-width: 140px;">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+  </main>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+  "></script>
+</body>
+
+</html>
